@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/meganemura/ruboty-sloc.git
+  revision: db7b814348c148e66f6c59d9b39b120601cc8b0a
+  branch: wip
+  specs:
+    ruboty-sloc (0.1.0)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,3 +76,4 @@ DEPENDENCIES
   ruboty-echo
   ruboty-google_image
   ruboty-slack
+  ruboty-sloc!
