@@ -8,16 +8,25 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     dotenv (2.0.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     i18n (0.7.0)
     json (1.8.2)
     mem (0.1.5)
     minitest (5.5.1)
+    multipart-post (2.0.0)
     ruboty (1.2.1)
       activesupport
       bundler
       dotenv
       mem
       slop
+    ruboty-google_image (0.0.7)
+      faraday
+      faraday_middleware
+      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -33,4 +42,5 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-google_image
   ruboty-slack
